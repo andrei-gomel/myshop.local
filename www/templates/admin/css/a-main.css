@@ -1,0 +1,54 @@
+body{
+	padding: 0 ;
+	display: block;
+}
+
+.hideme{
+    display: none;
+}
+
+#header{
+	height: 70px;
+	text-align: center;
+	background-color: #F0F8FF;
+}
+
+#leftColumn{
+	width: 120px;
+	float: left;
+	height: 600px;
+	background-color: #F0F8FF;
+}
+
+#leftMenu, #loginBox, #registerBox{
+	padding-bottom: 20px;
+}
+
+#centerColumn{
+	width: 900px;
+	float: left;
+	padding-left: 50px;
+}
+
+#footer{
+	clear: both;
+}
+
+.menuCaption{
+	padding: 3px;
+	font-weight: bold;
+	color: CadetBlue;
+}
+
+.cartBox{
+	padding: 5px 0px 5px 0px;
+}
+
+.showHidden{
+	text-decoration: underline;
+	color: green;
+	cursor: pointer;
+}
+#registerBoxHidden{
+	display: none;
+}
